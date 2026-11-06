@@ -5,15 +5,16 @@
 [![Python Version](https://img.shields.io/badge/Python-3.12%2B-blue.svg)](https://www.python.org/)
 [![Framework](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Transformers](https://img.shields.io/badge/%F0%9F%A4%97%20Transformers-4.40%2B-orange)](https://huggingface.co/docs/transformers)
-[![Streamlit App](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Streamlit App](https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?logo=streamlit&logoColor=white)](https://intent-detection-llm-aj.streamlit.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-An end-to-end Natural Language Understanding (NLU) solution for **Intent Detection** powered by a fine-tuned **DistilBERT** transformer model. The model classifies spoken or typed user queries into specific action intents with high accuracy and low latency, accompanied by an interactive **Streamlit** web application for real-time testing.
+An end-to-end Natural Language Understanding (NLU) solution for **Intent Detection** powered by a fine-tuned **DistilBERT** transformer model. The model classifies typed user queries into specific action intents with high accuracy and low latency, accompanied by an interactive **Streamlit** web application for real-time testing.
 
 ---
 
 ## 📌 Project Links
 
+- **🌐 Live Demo (Streamlit App):** [intent-detection-llm-aj.streamlit.app](https://intent-detection-llm-aj.streamlit.app/)
 - **🤗 Hugging Face Model & Tokenizer:** [adityajare/intent-detection-distilbert](https://huggingface.co/adityajare/intent-detection-distilbert)
 - **📓 Kaggle Training Notebook:** [Intent Detection with DistilBERT on Kaggle](https://www.kaggle.com/code/adityajare/intent-detection-distilbert)
 
@@ -29,7 +30,7 @@ An end-to-end Natural Language Understanding (NLU) solution for **Intent Detecti
   - [Prerequisites](#prerequisites)
   - [Installation (Using pip / venv)](#1-installation-using-pip--venv)
   - [Installation (Using uv)](#2-installation-using-uv)
-- [Running the Web Application](#-running-the-web-application)
+- [Web Application & Live Demo](#-web-application)
 - [Programmatic Usage (Python)](#-programmatic-usage-python)
   - [Using Hugging Face Pipeline](#option-a-using-transformers-pipeline)
   - [Using PyTorch & AutoModel](#option-b-using-pytorch--automodel)
@@ -131,7 +132,11 @@ uv sync
 
 ---
 
-## 🖥️ Running the Web Application
+## 🖥️ Web Application
+
+> **🚀 Live Demo:** Test the model right away without running locally: [intent-detection-llm-aj.streamlit.app](https://intent-detection-llm-aj.streamlit.app/)
+
+### Running Locally
 
 Launch the Streamlit app with:
 
